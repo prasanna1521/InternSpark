@@ -1,0 +1,1 @@
+2026-06-29 16:00:50,741 - ERROR - Error sorting files: [WinError 267] The directory name is invalid: 'sample_files'
