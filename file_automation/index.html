@@ -10,36 +10,30 @@
       background-color: #f9f9f9;
       color: #333;
     }
-
     header {
       background: linear-gradient(to right, #2c3e50, #3498db);
       color: white;
       text-align: center;
       padding: 60px 20px;
     }
-
     header h1 {
       font-size: 42px;
       margin-bottom: 10px;
     }
-
     header p {
       font-size: 18px;
       opacity: 0.9;
     }
-
     section {
       max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
     }
-
     h2 {
       color: #2c3e50;
       border-bottom: 2px solid #3498db;
       padding-bottom: 5px;
     }
-
     pre {
       background: #2c3e50;
       color: #ecf0f1;
@@ -48,17 +42,22 @@
       font-family: Consolas, monospace;
       overflow-x: auto;
     }
-
     ol {
       margin-left: 20px;
     }
-
     .success {
       color: #27ae60;
       font-weight: bold;
       margin-top: 10px;
     }
-
+    .error {
+      color: #e74c3c;
+      font-weight: bold;
+    }
+    .warning {
+      color: #f39c12;
+      font-weight: bold;
+    }
     footer {
       text-align: center;
       padding: 20px;
@@ -95,6 +94,8 @@ Renamed: file1.txt → report1.txt
 Moved: image.png → Images/
     </pre>
     <p class="success">✔ Files renamed successfully.</p>
+    <p class="error">❌ Error: Directory not found.</p>
+    <p class="warning">⚠ Invalid choice. Please try again.</p>
   </section>
 
   <footer>
