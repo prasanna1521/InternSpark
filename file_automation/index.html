@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>File Automation Project</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    h1 { color: #2c3e50; }
-    pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2 {
+      margin-top: 30px;
+      color: #34495e;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 12px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+    .success {
+      color: green;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
   </style>
 </head>
 <body>
@@ -15,10 +41,29 @@
   <h2>About the Project</h2>
   <p>This Python script automates file operations like renaming, sorting, and cleaning folders.</p>
 
+  <h2>Usage</h2>
+  <pre>
+python automation.py
+  </pre>
+
+  <h2>Example</h2>
+  <p>Enter a directory path and choose an operation:</p>
+  <ol>
+    <li>Rename Files</li>
+    <li>Sort Files</li>
+    <li>Clean Empty Folders</li>
+  </ol>
+
   <h2>Sample Output</h2>
   <pre>
 Renamed: file1.txt → report1.txt
 Moved: image.png → Images/
   </pre>
+  <p class="success">✔ Files renamed successfully.</p>
+
+  <footer>
+    <p>Created by Yaga Lakshmi Prasanna | Hosted on GitHub Pages</p>
+  </footer>
 </body>
 </html>
+
